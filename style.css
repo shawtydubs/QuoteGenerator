@@ -1,0 +1,56 @@
+body {
+  background-color: #00001a;
+  margin: 0;
+}
+
+h1 {
+  color: #fff;
+  margin-top: 40px;
+  font-family: Signika, Tahoma, Verdana, sans-serif;
+  font-size: 48pt
+}
+
+@media (max-width: 480px) {
+  h1 {
+    margin-top: 20px;
+    font-size: 36pt;
+  }
+}
+
+#banner-container {
+  position: absolute;
+  top: 60%;
+  transform: translate(0, -50%);
+  width: 100%
+}
+
+#banner {
+  min-height: 200px;
+  height: auto;
+  background-color: #fff;
+  padding: 30px;
+}
+
+#quote {
+  width: 60%;
+  margin: auto;
+}
+
+.quoteContent {
+  font-family: Quicksand, Tahoma, Verdana, sans-serif;
+  font-size: 16pt;
+}
+
+.quotePerson {
+  font-family: Quicksand, Tahoma, Verdana, sans-serif;
+  font-size: 10pt;
+}
+
+button {
+  margin: 50px;
+  color: #000;
+  background-color: #fff;
+  width: 200px;
+  height: 50px;
+  font-family: Lucinda, Verdana, sans-serif;
+}
